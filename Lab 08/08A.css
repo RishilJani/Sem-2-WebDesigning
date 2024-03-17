@@ -1,0 +1,55 @@
+.heading{
+    width: 100%;
+    height: 15vh;
+}
+.photo{
+    float: left;
+    margin: 15px;
+    width: 50%;
+    height: 10%;
+}
+
+.right{
+    float: right;
+    margin: 5px;
+    width: 50%;
+    height: 10%;
+}
+.right a{
+    float: right;
+    margin: 20px;
+}
+.main img{
+    height: 65vh;
+    width: 100%;
+}
+.main h1{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    float: right;
+    color: white;
+}
+.main p{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    float: right;
+    color: white;
+}
+.last{
+    height: 20vh;
+    width: 100%;
+}
+.last div{
+    float: left;
+    text-align: center;
+    border: 1px solid red;
+    margin: 25px;
+    height: 14vh;
+    width: 20%;
+    color: blue;
+}
+a{
+    text-decoration: none;
+}

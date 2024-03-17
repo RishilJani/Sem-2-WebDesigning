@@ -1,0 +1,155 @@
+.head{
+    width: 80%;
+    height: 8vh;
+    background-color: #c33ccf;
+    border: 0.5px solid #c33ccf;
+    padding: 0.5%;
+    margin-left: 1%;
+}
+.head h2{
+    font-size: 25px;
+    color: white;
+}
+#logo{
+    border-radius: 50px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.menu{
+    float: right;
+    width: 50%;
+    height: 10vh;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -3%;
+    color: white;
+}
+.menu a{
+    margin-left: 3%;
+}
+.menu button{
+    border: 0px;
+    background-color: rgb(120, 0, 233);
+    border-radius: 20px;
+    width: 15%;
+    height: 40%;
+    font-size: 15px;
+    margin-left: 2%;
+    color: white;
+}
+.content1{
+    width: 80%;
+    height: 75vh;
+    padding: 0.5%;
+    border: 0.5px solid purple;
+    margin-left: 1%;
+}
+.content1 div{
+    width: 50%;
+    margin: 4% 0% 0% 25%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.myimg{
+    align-items: center;
+}
+.myimg img{
+    border-radius: 100px;
+}
+#b1{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    border: 0px;
+    border-radius: 40px;
+    color: white;
+    background-color: rgb(161, 5, 223);
+    width: 12%;
+    height: 7%;
+}
+#b2{
+    position: absolute;
+    top: 70%;
+    left: 57%;
+    border: 0px;
+    border-radius: 40px;
+    color: white;
+    background-color: rgb(161, 5, 223);
+    width: 12%;
+    height: 7%;
+}
+.content2{
+    width: 80%;
+    height: 10vh;
+    padding: 0.5%;
+    background: rgb(38, 38, 180);
+    border: 0.5px solid rgb(38, 38, 180);
+    margin-left: 1%; 
+    color: white;
+}
+.content2 img{
+    margin-top: 2%;
+    margin-left: 11%;
+    opacity: 50%;
+}
+.content3{
+    width: 80%;
+    height: 35vh;
+    padding: 0.5%;
+    border: 0.5px solid #c33ccf;
+    margin-left: 1%;
+    background-color: #c33ccf;
+    color: white;
+}
+.text2{
+    float: left;
+    width: 10%;
+    margin-left: 5%;
+    font-size: 40px;
+}
+.discription{
+    float: right;
+    width: 40%;
+    margin-top: 4%;
+    margin-right: 20%;
+    font-size: 25px;
+    opacity: 50%;
+}
+footer{
+    width: 80%;
+    height: 15vh;
+    padding: 0.5%;
+    background-color: #c33ccf;
+    margin-left: 1%;
+    color: white;
+    border: 0.5px solid #c33ccf; 
+}
+.last button{
+    width: 8%;
+    height: 60%;
+    background-color: rgb(161, 5, 223);
+    border: 0px;
+    color: wheat;
+    font-size: 25px;
+    margin-left: 7%;
+    border-radius: 30px;
+}
+
+#a1,#pa1{
+    float: left;
+}
+#a2,#pa2{
+    float: left;
+    
+}
+#a3,#pa3{
+    float: left;
+}
+
+.last p{
+    font-size: 25px;
+    opacity: 50%;
+}
