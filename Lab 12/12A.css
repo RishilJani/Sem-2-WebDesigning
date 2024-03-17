@@ -1,0 +1,48 @@
+body{
+    background-color: grey;
+}
+.link {
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    font-size: 30px;
+    color: orange;
+}
+
+a:visited {
+    color: red;
+}
+
+button {
+    box-sizing: border-box;
+    height: 5vh;
+    width: 5%;
+    background-color: royalblue;
+}
+
+button:hover {
+    box-shadow: 3px 3px red;
+
+}
+
+p {
+    width: 100%;
+    font-size: 20px;
+}
+
+p::first-line {
+    font-size: 25px;
+    font-weight: 1000;
+    letter-spacing: 2px;
+}
+
+p::first-letter {
+    font-size: 40px;
+    color: cyan;
+}
+
+p::selection {
+    background-color: yellow;
+}

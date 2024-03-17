@@ -1,0 +1,39 @@
+.Out {
+    width: 60%;
+    height: 100vh;
+    background-color: darkblue;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    align-content: space-around;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+.sub {
+    height: 15vh;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 15%;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+
+}
+#d1{ background: linear-gradient(135deg,green,cyan,pink); }
+#d2{ background: linear-gradient(blue,cyan); }
+#d3{ background: linear-gradient(135deg,yellow,rgb(231, 130, 147),blue); }
+
+#d4{ background: linear-gradient(-45deg,rgb(250, 93, 93),peachpuff); }
+#d5{ background: linear-gradient(135deg,rgb(41, 176, 255),pink); }
+#d6{ background: linear-gradient(45deg,orange,red,rgb(214, 42, 157)); }
+
+#d7{ background: linear-gradient(135deg,pink,purple,blue); }
+#d8{ background: linear-gradient(135deg,gold,white); }
+#d9{ background: linear-gradient(-45deg,rgb(250, 93, 93),peachpuff); }
+
+#d10{ background: linear-gradient(135deg,white,cyan); }
+#d11{ background: linear-gradient(90deg,rgb(229, 229, 160),pink,cyan); }
+#d12{ background: linear-gradient(rgb(129, 50, 63),rgb(255, 84, 84),yellow); }
+
+#d13{ background: linear-gradient(45deg,white,yellowgreen); }
+#d14{ background: linear-gradient(45deg,rgb(241, 68, 247),rgb(138, 29, 138),blue); }
+#d15{ background: linear-gradient(45deg,lightgreen,blue); }
