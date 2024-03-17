@@ -1,0 +1,35 @@
+.r1 .col-12{
+    background-color: black;
+    color: black;
+    height: 5vh;
+}
+.layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.r2 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    height: 8vh;
+}
+.nav{
+    height: 20vh;
+}
+.content{
+    height: 20vh;
+}
+.side{
+    height: 19vh;
+}
+.empty{
+    height: 10vh;
+}
+
+.foot{
+    height: 8vh;
+    background-color: aqua;
+}

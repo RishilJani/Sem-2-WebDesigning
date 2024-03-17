@@ -1,0 +1,25 @@
+.r1{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.nav .col-2 {
+    /* border: 1px solid red; */
+    color:  blue;
+    font-size: 20px;
+}
+.i1{
+    width: 80px;
+}
+.side{
+    background-color: red;
+}
+.r2{
+    border: 1px solid black;
+    height: 50vh;
+}
+.r3{
+    background-color: blue;
+    color: white;
+    height: 5vh;
+    font-size: 25px;
+}
