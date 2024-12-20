@@ -1,83 +1,90 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
 </head>
-<body>
-    <Fieldset>
-    <form>
-        <table width="60%" cellspacing="15px" >
-            <tr>
-                <th colspan="2"> Student Registration </th>
-            </tr>
-            <tr align="center">
-                <td> <label>Full Name</label> </td>
-                <td> <input type="text"></td>
-            </tr>
-            <tr align="center">
-                <td> <label>Email</label> </td>
-                <td> <input type="email"></td>
-            </tr>
-            <tr align="center">
-                <td> <label> Mobile No </label></td>
-                <td> <input type="text" ></td>
-            </tr>
-            <tr align="center">
-                <td> <label> Address </label></td>
-                <td> <textarea name="" id="" cols="20" rows="10"></textarea></td>
-            </tr>
-            <tr align="center">
-                <td> <label> Nationality </label></td>
-                <td> <input type="text"></td>
-            </tr>
-            <tr align="center">
-                <td> <label> Date of Birth </label></td>
-                <td> <input type="date"> </td>
-            </tr>
-            <tr align="center">
-                <td> <label> Gender</label></td>
-                <td> <input type="radio" name="gender"> Male
-                     <input type="radio" name="gender"> Female       
-                </td>
-            </tr>
-            <tr align="center">
-                <td> <label> Highest Degree </label></td>
-                <td> <select name="Degree" >
-                        <option selected disabled>Choose Degree</option>
-                        <option value="Degree">B.Tech</option>
-                        <option value="Degree">B.Sci</option>
-                        <option value="Degree">B.Com</option>
-                        <option value="Degree">B.A.</option>
-                     </select>
-                </td>
-            </tr>
-            <tr align="center">
-                <td> <label> CPI </label></td>
-                <td> <input type="number" pattern="[0-9]{3}"></td>
-            </tr>
 
-            <tr align="center">
-                <td> <label> University </label></td>
-                <td> <input type="text"></td>
-            </tr>
-            <tr align="center">
-                <td> <label> Paasing year </label></td>
-                <td><select name="year">
-                        <option selected disabled >Choose Paaing Year </option>
-                        <option value="year">2021</option>
-                        <option value="year">2022</option>
-                        <option value="year">2023</option>
-                    </select>
-                </td>
-            </tr>
-            <tr align="center">
-                <td><input type="submit" value="Submit"></td>
-                <td> <input type="reset" value="Reset"></td>
-            </tr>
+<body>
+
+    <form>
+        <table width="60%" align="center" cellspacing="15px">
+            <caption>
+                <h1> Student Registration </h1>
+            </caption>
+
+            <thead></thead>
+            <tbody>
+                <tr align="center">
+                    <td> <label>Full Name</label> </td>
+                    <td> <input type="text" pattern="[a-z]{2,}"></td>
+                </tr>
+                <tr align="center">
+                    <td> <label>Email</label> </td>
+                    <td> <input type="email"></td>
+                </tr>
+                <tr align="center">
+                    <td> <label> Mobile No </label></td>
+                    <td> <input type="text" pattern="[0-9]{10}"></td>
+                </tr>
+                <tr align="center">
+                    <td> <label> Address </label></td>
+                    <td> <textarea name="" id="" cols="20" rows="10"></textarea></td>
+                </tr>
+                <tr align="center">
+                    <td> <label> Nationality </label></td>
+                    <td> <input type="text"></td>
+                </tr>
+                <tr align="center">
+                    <td> <label> Date of Birth </label></td>
+                    <td> <input type="date"> </td>
+                </tr>
+                <tr align="center">
+                    <td> <label> Gender</label></td>
+                    <td> <input type="radio" name="gender"> Male
+                        <input type="radio" name="gender"> Female
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td> <label> Highest Degree </label></td>
+                    <td> <select name="Degree">
+                            <option selected disabled>Choose Degree</option>
+                            <option value="Degree">B.Tech</option>
+                            <option value="Degree">B.Sci</option>
+                            <option value="Degree">B.Com</option>
+                            <option value="Degree">B.A.</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td> <label> CPI </label></td>
+                    <td> <input type="number" pattern="[0-9]{3}"></td>
+                </tr>
+
+                <tr align="center">
+                    <td> <label> University </label></td>
+                    <td> <input type="text"></td>
+                </tr>
+                <tr align="center">
+                    <td> <label> Paasing year </label></td>
+                    <td><select name="year">
+                            <option selected disabled>Choose Paaing Year </option>
+                            <option value="year">2021</option>
+                            <option value="year">2022</option>
+                            <option value="year">2023</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td><input type="submit" value="Submit"></td>
+                    <td> <input type="reset" value="Reset"></td>
+                </tr>
+            </tbody>
         </table>
     </form>
- </Fieldset>
+
 </body>
+
 </html>
