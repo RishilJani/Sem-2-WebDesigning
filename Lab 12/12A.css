@@ -1,12 +1,10 @@
-body{
+body {
     background-color: grey;
 }
+
 .link {
     width: 100%;
     text-align: center;
-}
-
-a {
     font-size: 30px;
     color: orange;
 }
@@ -15,34 +13,33 @@ a:visited {
     color: red;
 }
 
-button {
+.mybtn {
     box-sizing: border-box;
     height: 5vh;
     width: 5%;
-    background-color: royalblue;
+    background-color: darkred;
 }
 
-button:hover {
-    box-shadow: 3px 3px red;
-
+.mybtn:hover {
+    box-shadow: 4px 4px greenyellow;
 }
 
-p {
+.para {
     width: 100%;
     font-size: 20px;
 }
 
-p::first-line {
+.para::first-line {
     font-size: 25px;
     font-weight: 1000;
     letter-spacing: 2px;
 }
 
-p::first-letter {
+.para::first-letter {
     font-size: 40px;
     color: cyan;
 }
 
-p::selection {
+.para::selection {
     background-color: yellow;
 }

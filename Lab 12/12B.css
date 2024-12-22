@@ -1,0 +1,28 @@
+.link {
+    color: darkblue;
+    margin: 1% 1%;
+    font-size: medium;
+}
+
+.container .link:hover {
+    font-size: large;
+    color: aqua;
+}
+
+.lbl {
+    margin: 1%;
+}
+
+.inp:focus {
+    font-size: 15px;
+    outline: none;
+    box-shadow: 5px 5px 5px aqua;
+}
+
+.myTable {
+    width: 50%;
+}
+
+tr:hover {
+    background-color: lightgreen;
+}

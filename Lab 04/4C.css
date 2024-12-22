@@ -1,0 +1,51 @@
+body{
+    background-color: #299bc1;
+    font-family: sans-serif;
+}
+caption {
+    height: 15%;
+    color: #a5a4a3;
+    background-color: #eff0f1;
+}
+label {
+    color: rgb(58, 176, 137);
+    
+    font-weight: 600;
+}
+form {
+    position: absolute;
+    overflow: hidden;
+    overflow-y: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fefefe;
+    border-radius: 20px;
+}
+
+label {
+
+}
+input {
+    width: 90%;
+}
+input[type="radio"], [type="checkbox"] {
+    width: 5%;
+}
+[type="email"]{
+    width: 100;
+}
+.hobby {
+    font-size: small;
+}
+.submit {
+    height: 15%;
+    width: 100%;
+    background-color: #eff0f1;
+}
+#btn {
+    position: relative;
+    margin: 2.5%;
+    left: 80%;
+    
+}

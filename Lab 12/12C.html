@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 12 C</title>
+    <link rel="stylesheet" href="./12C.css">
+</head>
+
+<body>
+    <!-- 1. -->
+    <form>
+        <div class="container">
+            <label class="lbl">Enter Name : </label>
+            <input type="text" class="inp" placeholder="Enter Name..." pattern="[A-Za-z\s]+" required />
+            <span class="sName">Enter Valid Name</span>
+        </div>
+        <div class="container">
+            <label class="lbl">Enter Age : </label>
+            <input type="text" class="inp" placeholder="Enter Name..." pattern="[0-9]{1,3}" required />
+            <span class="sAge">Enter Valid Age</span>
+        </div>
+        <div class="container">
+            <button class="btn">Submit</button>
+        </div>
+    </form>
+    <br /> <br />
+
+    <!-- 2. -->
+    <div>
+        <button class="mybtn">Active Demo</button>
+        <br /><br />
+        <h2>This is Demo of :before</h2>
+        <label class="toggle">
+            <input type="checkbox">
+            <span class="slider"></span>
+        </label>
+    </div>
+    <br /><br />
+
+    <!-- 3. -->
+    <div class="container">
+        <div>
+            <label class="lbl">Enter name : </label>
+            <input type="text" class="myinput" placeholder="Enter Name" required /><br />
+        </div>
+        <div>
+            <label class="lbl">Enter Age : </label>
+            <input type="number" class="myinput" placeholder="Enter Age" required/><br />
+        </div>
+
+        <div>
+            <label class="lbl">Enter address : </label>
+            <textarea class="myinput" rows="3" required></textarea>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11C</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0%;
+            padding: 0%;  
+        }
+        
+        .card {
+            --color1: var(--color2);
+            --color2: var(--color1);
+            --color3: var(--color1);
+            height: 10vmin;
+            width: 10vmin;
+            background: linear-gradient(135deg,var(--color1),var(--color2),var(--color3));
+        }
+        .grid {
+            display: grid;
+            width: 100vw;
+            height: 100vh;
+            align-content: space-evenly;
+            justify-content: space-evenly;
+            grid-template-columns: repeat(5,20%);
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="grid">
+
+        <div style="--color1: #fce38a;--color2: #f38181;" class="card"></div>
+        <div style="--color1: #f54ea2;--color2: #ff7676;" class="card"></div>
+        <div style="--color1: #17ead9;--color2: #6078ea;" class="card"></div>
+        <div style="--color1: #622774;--color2: #c53364;" class="card"></div>
+        <div style="--color1: #7117ea;--color2: #ea6060;" class="card"></div>
+        <div style="--color1: #42e695;--color2: #3bb2bb;" class="card"></div>
+        <div style="--color1: #f02fc2;--color2: #6094ea;" class="card"></div>
+        <div style="--color1: #65799b;--color2: #5e2563;" class="card"></div>
+        <div style="--color1: #184e68;--color2: #57ca85;" class="card"></div>
+        <div style="--color1: #5b247a;--color2: #1bcedf;" class="card"></div>
+        <div style="--color1: #74276c;--color2: #c53364;--color3:#fd8263;" class="card"></div>
+        <div style="--color1: #274b74;--color2: #8233c5;--color3:#e963fd;" class="card"></div>
+        <div style="--color1: #879af2;--color2: #d3208b;--color3:#fda000;" class="card"></div>
+        <div style="--color1: #8929ad;--color2: #436aac;--color3:#43b7bb;" class="card"></div>
+        <div style="--color1: #276174;--color2: #33c58e;--color3:#63fd88;" class="card"></div>
+        <div style="--color1: #574bcd;--color2: #2999ad;--color3:#41e975;" class="card"></div>
+        <div style="--color1: #363553;--color2: #903775;--color3:#e8458b;" class="card"></div>
+        <div style="--color1: #5c2774;--color2: #335cc5;--color3:#637ffd;" class="card"></div>
+        <div style="--color1: #ea5a6f;--color2: #de791e;--color3:#fccf3a;" class="card"></div>
+        <div style="--color1: #f17b41;--color2: #e05ba2;--color3:#cd4bc9;" class="card"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+.main{
+    margin: 0% 3% 0% 3%;
+}
+.c1{
+    color: purple;
+    font-size: 60px;
+}
+.c3{
+    opacity: 60%;
+}
+
+.List span{
+    color: black;
+    opacity: 70%;
+    font-size: large;
+}
+.List p{
+    opacity: 50%;
+}
+input{
+    height: 4vh;
+    
+}

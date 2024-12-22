@@ -168,7 +168,7 @@ button {
 .center h5 {
     position: relative;
     top: 2%;
-    left: 5%;
+    left: 0%;
 }
 
 .plus {
@@ -178,7 +178,7 @@ button {
     text-align: center;
     position: relative;
     top: -15%;
-    left: 50%;
+    left: 51%;
     border: 1px solid gray;
 }
 
